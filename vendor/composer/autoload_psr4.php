@@ -15,4 +15,5 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'ProjetoFinancas\\' => array($baseDir . '/src'),
     'Phinx\\' => array($vendorDir . '/robmorgan/phinx/src/Phinx'),
+    'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
 );

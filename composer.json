@@ -1,0 +1,17 @@
+{
+    "name": "viniciusassumpcao/projeto-financas",
+    "authors": [
+        {
+            "name": "Vinicius Assumpção",
+            "email": "vinicius.assumpcao@accist.com.br"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "0.7.1"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"ProjetoFinancas\\": "src/"
+    	}
+    }
+}

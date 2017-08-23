@@ -11,6 +11,10 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
     );
 
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'Zend\\Diactoros\\' => 15,
+        ),
         'X' => 
         array (
             'Xtreamwayz\\Pimple\\' => 18,
@@ -27,6 +31,7 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
             'ProjetoFinancas\\' => 16,
             'Phinx\\' => 6,
@@ -39,9 +44,17 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
         array (
             'Faker\\' => 6,
         ),
+        'A' => 
+        array (
+            'Aura\\Router\\' => 12,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Zend\\Diactoros\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
+        ),
         'Xtreamwayz\\Pimple\\' => 
         array (
             0 => __DIR__ . '/..' . '/xtreamwayz/pimple-container-interop/src',
@@ -74,6 +87,10 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
@@ -93,6 +110,10 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
+        ),
+        'Aura\\Router\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/aura/router/src',
         ),
     );
 

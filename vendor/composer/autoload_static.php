@@ -11,6 +11,10 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
     );
 
     public static $prefixLengthsPsr4 = array (
+        'X' => 
+        array (
+            'Xtreamwayz\\Pimple\\' => 18,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -23,8 +27,13 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Psr\\Container\\' => 14,
             'ProjetoFinancas\\' => 16,
             'Phinx\\' => 6,
+        ),
+        'I' => 
+        array (
+            'Interop\\Container\\' => 18,
         ),
         'F' => 
         array (
@@ -33,6 +42,10 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
     );
 
     public static $prefixDirsPsr4 = array (
+        'Xtreamwayz\\Pimple\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/xtreamwayz/pimple-container-interop/src',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -61,6 +74,10 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
         'ProjetoFinancas\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -69,9 +86,23 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
         array (
             0 => __DIR__ . '/..' . '/robmorgan/phinx/src/Phinx',
         ),
+        'Interop\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
+        ),
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'Pimple' => 
+            array (
+                0 => __DIR__ . '/..' . '/pimple/pimple/src',
+            ),
         ),
     );
 
@@ -80,6 +111,7 @@ class ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit493dba4eeeaf7026dbb8bccdd70cde29::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
